@@ -1,0 +1,16 @@
+#!/bin/bash
+
+DIR=/home/hacker/Загрузки/wallpapers
+PICS=($(ls ${DIR}))
+
+RANDOMPICS=${PICS[ $RANDOM % ${#PICS[@]} ]}
+
+if [[ $(pidof swaybg) ]]; then
+  pkill swaybg
+fi
+
+swww query || swww-daemon
+
+#change-wallpaper using swww
+swww img ${DIR}/${RANDOMPICS} --transition-fps 50 --transition-type any --transition-duration 3
+
