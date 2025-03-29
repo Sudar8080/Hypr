@@ -187,6 +187,7 @@
 		"title<.*reddit.*>": " ",
 		"title<.*Picture-in-Picture.*>": " ",
 		"class<firefox|org.mozilla.firefox|librewolf|floorp|mercury-browser|[Cc]achy-browser>": " ",
+		"class<Steam>": " ",
 		"class<kitty|konsole>": " ",
 		"class<kitty-dropterm>": " ",
 		"class<Chromium|Thorium>": " ",
