@@ -1,9 +1,2 @@
-  _________         .___             
- /   _____/__ __  __| _/____ _______ 
- \_____  \|  |  \/ __ |\__  \\_  __ \
- /        \  |  / /_/ | / __ \|  | \/
-/_______  /____/\____ |(____  /__|   
-        \/           \/     \/       
-
-
+Maded by Sudar, and thanks to JaKooLit
 Hello Everyone here is my hyprland dotfiles! 
