@@ -1,5 +1,3 @@
-/* ---- 💫 https://github.com/JaKooLit 💫 ---- */
-
 // ### DEFAULT - Top ### //
 {
 "include": [
@@ -28,8 +26,10 @@
 	//"custom/separator#blank_2",
 	"clock",
 	"custom/separator#line",
-	"hyprland/window",
-	"custom/cava_mviz",
+	"hyprland/window"
+//	"custom/cava_mviz"
+//	"custom/separator#line",
+//	"custom/playerctl"
 	],
 
 "modules-center": [
@@ -41,13 +41,17 @@
 "modules-right": [
 	"tray",
 //	"custom/separator#dot-line",
+//	"custom/updates",
+	"hyprland/language",
+//	"custom/separator#dot-line",
+	"custom/hyprland-layout",
 	"network#speed",
-	"bluetooth",
+//	"bluetooth",
 	"custom/separator#dot-line",
 	"group/mobo_drawer",
 	"custom/separator#line",  
 	"group/audio",
-	"custom/separator#dot-line", 
+	"custom/separator#dot-line",
 	"group/status",
 	],
 }
