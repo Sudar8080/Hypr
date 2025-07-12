@@ -16,7 +16,16 @@
 	"exec-if": "ping wttr.in -c1",
 	"tooltip": true,
 },
+"custom/updates": {
+	"format": "{}",
+//	"return-type": "json",
+	"exec": "$HOME/projects/up",
+	"tooltip": true,
+	"interval": 2,
+	"spacing": 2,
 
+
+},
 "custom/file_manager": {
 	"format": " ",
 	"on-click": "xdg-open . &",
@@ -124,6 +133,14 @@
 	"on-scroll-down": "$HOME/.config/hypr/scripts/Volume.sh --dec",
 	"smooth-scrolling-threshold": 1,
 },
+"hyprland/language": {
+	"format": "{short} {variant}",
+	"rotate": 0,
+	"min-length": 2,
+	"tooltip": false
+    
+},
+
     
 "custom/power": {
 	"format": "⏻ ",
