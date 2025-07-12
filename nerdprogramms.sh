@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pacman -S waybar rofi git neovim nwg-look wine portproton firefox ramger pavucontrol telegram-desktop libre-office ranger filelight gtop htop
+sudo pacman -S waybar rofi git neovim nwg-look wine portproton firefox ramger pavucontrol telegram-desktop libre-office ranger filelight gtop htop swww
 #aur
 sudo pacman -S --needed git base-devel
 git clone https://aur.archlinux.org/yay-bin.git
