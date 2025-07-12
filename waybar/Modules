@@ -97,8 +97,8 @@
 
 "clock": {
 	"interval": 1,
-    //"format": " {:%I:%M %p}", // AM PM format
-    "format": " {:%H:%M:%S}", // 24H
+    "format": " {:%I:%M %p}", // AM PM format
+    //"format": " {:%H:%M:%S}", // 24H
 	"format-alt": " {:%H:%M   %Y, %d %B, %A}",
 	"tooltip-format": "<tt><small>{calendar}</small></tt>",
 	"calendar": {
@@ -179,17 +179,19 @@
 	"interval": 30,
 	//"format": "󰋊",
 	"path": "/",
-	//"format-alt-click": "click",
+	"format-alt-click": "click",
 	"format": "{percentage_used}% 󰋊",
+  //"format": "{used}/{total}",
+
 	//"tooltip": true,
 	"tooltip-format": "{used} used out of {total} on {path} ({percentage_used}%)",
 },
 
 "hyprland/language": {
-	"format": "Lang: {}",
+	"format": "  {}",
 	"format-en": "US",
-	"format-tr": "Korea",
-	"keyboard-name": "at-translated-set-2-keyboard",
+	"format-ru": "RU",
+	"keyboard-name": "by-tech-gaming-keyboard",
 	"on-click": "hyprctl switchxkblayout $SET_KB next"
 },
 
@@ -200,7 +202,7 @@
 
 "hyprland/window": {
 	"format": "{}",
-	"max-length": 25,
+	"max-length": 35,
 	"separate-outputs": true,
 	"offscreen-css": true,
 	"offscreen-css-text": "(inactive)",
