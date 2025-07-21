@@ -1,4 +1,7 @@
 Maded by Sudar, and thanks to JaKooLit
+```
+git clone https://github.com/Sudar8080/Hypr
+```
 
 
 Hello Everyone here is my hyprland dotfiles! 
