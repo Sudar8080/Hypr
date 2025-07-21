@@ -1,5 +1,5 @@
 Maded by Sudar, and thanks to JaKooLit
-```
+```shell
 git clone https://github.com/Sudar8080/Hypr
 ```
 
